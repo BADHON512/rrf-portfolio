@@ -1,26 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+
+body {
+ 
+  font-family: "Montserrat", sans-serif;
+  background-color: #f1f1f1;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
+
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --dark: 17 24 39;    /* RGB: 17,24,39 */
+    --dark-grey: 55 65 81;
+    --grey: 107 114 128;
+    --medium-grey: 156 163 175;
+    --pink: 236 72 153;
+    --red: 239 68 68;
+    --white: 255 255 255;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+
+@layer base {
+  :root {
+    
+    --text-3xl-font-semibold-font-family: 'Inter', sans-serif;
+    --text-4xl-font-bold-font-family: 'Inter', sans-serif;
+    --text-4xl-font-semibold-font-family: 'Inter', sans-serif;
+    --text-base-font-bold-font-family: 'Manrope', sans-serif;
+    --text-base-font-normal-font-family: 'Manrope', sans-serif;
+    --text-lg-font-bold-font-family: 'Manrope', sans-serif;
+    --text-sm-font-normal-font-family: 'Manrope', sans-serif;
+    --text-xl-font-bold-font-family: 'Inter', sans-serif;
+    --text-xs-font-bold-font-family: 'Manrope', sans-serif;
+    --text-xs-font-normal-font-family: 'Manrope', sans-serif;
+  }
 }
+
+
