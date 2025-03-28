@@ -5,9 +5,9 @@ type Props = {}
 const About = (props: Props) => {
     return (
         <div className="flex flex-col w-[1440px] relative mx-auto items-center gap-8 pt-16 pb-20 px-[188px] bg-[#1f1f1f] overflow-hidden">
-        <div className="flex flex-col w-[810px] items-center gap-6">
-          <div className="font-bold text-[36px] leading-[150%] text-[#FFFFFF] montserrat">About Me</div>
-          <p className="text-[#FFFFFF] text-base tracking-[0%] font-normal leading-[150%] text-center montserrat">
+        <div className="flex flex-col  items-center gap-6">
+          <div className="font-bold text-[36px] leading-[150%] text-[#FFFFFF] font-montserrat ">About Me</div>
+          <p className="text-base font-normal font-montserrat text-[16px] leading-[150%] tracking-[0%] text-center w-[810px] text-[#FFFFFF]">
             I'm John Smith, a UI/UX designer dedicated to crafting intuitive and visually stunning digital experiences. With a passion for
             user-centric design, I transform ideas into functional and beautiful interfaces. Let's collaborate and shape the future of design together.
           </p>
