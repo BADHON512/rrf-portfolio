@@ -26,8 +26,8 @@ const Blog = (props: Props) => {
             <p className="text-sm text-gray-700">
               Dive into the world of web typography and discover how to choose, pair, and optimize fonts for compelling and readable digital designs.
             </p>
-            <div className="inline-flex items-center gap-2 relative flex-[0_0_auto] mt-5">
-              <div className="inline-flex items-center gap-8 relative flex-[0_0_auto]">
+            <div className="inline-flex items-center gap-2 relative  mt-5">
+              <div className="inline-flex items-center gap-8 relative ">
                 <div className="font-bold text-[12px] leading-[150%]">
                   Read More
                 </div>
@@ -47,8 +47,8 @@ const Blog = (props: Props) => {
             <p className="text-sm text-gray-700">
               Explore how color choices impact user emotions and decision-making in UX design.
             </p>
-            <div className="inline-flex items-center gap-2 relative flex-[0_0_auto] mt-11">
-              <div className="inline-flex items-center gap-8 relative flex-[0_0_auto] ">
+            <div className="inline-flex items-center gap-2 relative  mt-11">
+              <div className="inline-flex items-center gap-8 relative  ">
                 <p className=" font-bold text-[12px] leading-[150%]">
                   Read More
                 </p>
@@ -68,8 +68,8 @@ const Blog = (props: Props) => {
             <p className="text-sm text-gray-700">
               Discover the power of microinteractions in enhancing user experience and engagement.
             </p>
-            <div className="inline-flex items-center gap-2 relative flex-[0_0_auto] mt-11">
-              <div className="inline-flex items-center gap-8 relative flex-[0_0_auto]">
+            <div className="inline-flex items-center gap-2 relative  mt-11">
+              <div className="inline-flex items-center gap-8 relative ">
                 <div className="font-bold text-[12px] leading-[150%]">
                   Read More
                 </div>

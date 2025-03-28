@@ -5,13 +5,13 @@ type Props = {}
 
 const Testemonials = (props: Props) => {
   return (
-    <div className="flex w-[1440px] mx-auto items-center justify-center gap-2.5 pt-[90px] pb-16 px-[124px] relative flex-[0_0_auto] bg-[#ffd3d0] overflow-hidden">
+    <div className="flex w-[1440px] mx-auto items-center justify-center gap-2.5 pt-[90px] pb-16 px-[124px] relative  bg-[#ffd3d0] overflow-hidden">
     <div className="flex flex-col items-center gap-8 relative flex-1 grow">
       <div className="font-bold text-4xl leading-[150%] tracking-[0%]">
         Testemonials
       </div>
 
-      <div className="flex items-center justify-between relative self-stretch w-full flex-[0_0_auto]">
+      <div className="flex items-center justify-between relative self-stretch w-full ">
         <VuesaxLinearArrowRight2 className="!relative !w-10 !h-10" />
         <p className="relative w-[768px] font-normal text-base leading-[150%] text-center">
           Sara Jones&#39;s designs are both visually captivating and highly
@@ -23,7 +23,7 @@ const Testemonials = (props: Props) => {
         <VuesaxLinearArrowRight className="!relative !w-10 !h-10" />
       </div>
 
-      <div className="inline-flex items-center justify-center gap-4 relative flex-[0_0_auto]">
+      <div className="inline-flex items-center justify-center gap-4 relative ">
         <img
           className="relative w-[70px] h-[70px]"
           alt="Image"

@@ -19,7 +19,7 @@ const Services = (props: Props) => {
           </p>
         </div>
 
-        <div className="flex items-start gap-8 relative self-stretch w-full flex-[0_0_auto]">
+        <div className="flex items-start gap-8 relative self-stretch w-full ">
           <div className="flex flex-col items-start gap-6 p-4 relative flex-1 self-stretch grow">
             <img
               className="relative w-[47.98px] h-[53.97px]"
