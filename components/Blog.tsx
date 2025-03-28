@@ -47,7 +47,7 @@ const Blog = (props: Props) => {
             <p className="text-sm text-gray-700">
               Explore how color choices impact user emotions and decision-making in UX design.
             </p>
-            <div className="inline-flex items-center gap-2 relative  mt-11">
+            <div className="inline-flex items-center gap-2 relative  mt-7">
               <div className="inline-flex items-center gap-8 relative  ">
                 <p className=" font-bold text-[12px] leading-[150%]">
                   Read More
@@ -68,7 +68,7 @@ const Blog = (props: Props) => {
             <p className="text-sm text-gray-700">
               Discover the power of microinteractions in enhancing user experience and engagement.
             </p>
-            <div className="inline-flex items-center gap-2 relative  mt-11">
+            <div className="inline-flex items-center gap-2 relative  mt-7">
               <div className="inline-flex items-center gap-8 relative ">
                 <div className="font-bold text-[12px] leading-[150%]">
                   Read More
