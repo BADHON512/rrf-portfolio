@@ -12,7 +12,7 @@ const Contact = (props: Props) => {
             Get in Touch
           </h1>
 
-          <p className="relative self-stretch font-text-base-font-normal ">
+          <p className="text-base font-normal leading-[150% text-[#1F1F1F]">
             Have a question or a project in mind? I&#39;d love to hear from
             you. Let&#39;s chat and make something amazing together.
           </p>
@@ -26,9 +26,9 @@ const Contact = (props: Props) => {
               src="https://c.animaapp.com/m8oppxsffd4w9o/img/bxs-phone-call.svg"
             />
 
-            <div className="relative w-fit mt-[-1.00px] font-text-base-font-normal font-[number:var(--text-base-font-normal-font-weight)] text-[#1f1f1f] text-[length:var(--text-base-font-normal-font-size)] tracking-[var(--text-base-font-normal-letter-spacing)] leading-[var(--text-base-font-normal-line-height)] whitespace-nowrap [font-style:var(--text-base-font-normal-font-style)]">
+            <p className="">
               +1205 5872 321
-            </div>
+            </p>
           </div>
 
           <div className="inline-flex items-start gap-4 relative flex-[0_0_auto]">
@@ -38,8 +38,8 @@ const Contact = (props: Props) => {
               src="https://c.animaapp.com/m8oppxsffd4w9o/img/ic-sharp-email.svg"
             />
 
-            <p className="relative w-fit mt-[-1.00px] [font-family:'Montserrat',Helvetica] font-normal text-transparent text-base tracking-[0] leading-4">
-              <span className="text-[#1f1f1f] leading-[var(--text-base-font-normal-line-height)] font-text-base-font-normal [font-style:var(--text-base-font-normal-font-style)] font-[number:var(--text-base-font-normal-font-weight)] tracking-[var(--text-base-font-normal-letter-spacing)] text-[length:var(--text-base-font-normal-font-size)]">
+            <p className="">
+              <span className="text-[#1f1f1f] ">
                 {" "}
                 contact@sarajonesdesign.com
               </span>
@@ -53,23 +53,23 @@ const Contact = (props: Props) => {
               src="https://c.animaapp.com/m8oppxsffd4w9o/img/carbon-location-filled.svg"
             />
 
-            <p className="relative flex-1 mt-[-1.00px] font-text-base-font-normal font-[number:var(--text-base-font-normal-font-weight)] text-[#1f1f1f] text-[length:var(--text-base-font-normal-font-size)] tracking-[var(--text-base-font-normal-letter-spacing)] leading-[var(--text-base-font-normal-line-height)] [font-style:var(--text-base-font-normal-font-style)]">
+            <p className="">
               1234 Design Street,Creativeville, Webland,Imaginary State, 98765
             </p>
           </div>
         </div>
       </div>
 
-      <div className="inline-flex items-center justify-center gap-6 relative flex-[0_0_auto]">
+      <div className="inline-flex items-center justify-center gap-6 relative mt-20 flex-[0_0_auto]">
         <div className="relative w-[30px] h-[30px] bg-white rounded-[15px]">
           <img
-            className="absolute w-[15px] h-3 top-[9px] left-2"
+            className="absolute w-[15px] h-3 top-[9px] left-2 cursor-pointer"
             alt="Vector"
             src="https://c.animaapp.com/m8oppxsffd4w9o/img/vector-2.svg"
           />
         </div>
 
-        <div className="relative w-[30px] h-[30px] bg-white rounded-[15px]">
+        <div className="relative w-[30px] h-[30px] bg-white rounded-[15px] cursor-pointer">
           <img
             className="absolute w-[15px] h-[15px] top-[7px] left-2"
             alt="Vector"
@@ -78,13 +78,13 @@ const Contact = (props: Props) => {
         </div>
 
         <img
-          className="relative w-[30px] h-[30px]"
+          className="relative w-[30px] h-[30px] cursor-pointer"
           alt="Frame"
           src="https://c.animaapp.com/m8oppxsffd4w9o/img/frame-110.svg"
         />
 
         <img
-          className="relative w-[30px] h-[30px]"
+          className="relative w-[30px] h-[30px] cursor-pointer"
           alt="Frame"
           src="https://c.animaapp.com/m8oppxsffd4w9o/img/frame-109.svg"
         />
@@ -94,34 +94,37 @@ const Contact = (props: Props) => {
     <div className="flex flex-col items-start justify-center gap-8 relative flex-1 grow">
       <div className="flex flex-col items-start gap-6 relative self-stretch w-full flex-[0_0_auto]">
         <input
-          className="w-[566px] px-4 py-3.5 relative bg-[#ffffff] border-[none] mt-[-1.00px] font-text-sm-font-normal font-[number:var(--text-sm-font-normal-font-weight)] text-dark-grey text-[length:var(--text-sm-font-normal-font-size)] tracking-[var(--text-sm-font-normal-letter-spacing)] leading-[var(--text-sm-font-normal-line-height)] whitespace-nowrap [font-style:var(--text-sm-font-normal-font-style)]"
+      className="w-[566px] px-4 py-3.5 relative bg-[#ffffff] text-gray-500 border-none outline-none"
+
           placeholder="First name"
           type="text"
         />
 
         <input
-          className="px-4 py-3.5 self-stretch w-full relative bg-[#ffffff] border-[none] mt-[-1.00px] font-text-sm-font-normal font-[number:var(--text-sm-font-normal-font-weight)] text-dark-grey text-[length:var(--text-sm-font-normal-font-size)] tracking-[var(--text-sm-font-normal-letter-spacing)] leading-[var(--text-sm-font-normal-line-height)] whitespace-nowrap [font-style:var(--text-sm-font-normal-font-style)]"
+ className="w-[566px] px-4 py-3.5 relative bg-[#ffffff] text-gray-500 border-none outline-none"
+
           placeholder="Email"
           type="email"
         />
 
         <input
-          className="px-4 py-3.5 self-stretch w-full relative bg-white border-[none] mt-[-1.00px] font-text-sm-font-normal font-[number:var(--text-sm-font-normal-font-weight)] text-dark-grey text-[length:var(--text-sm-font-normal-font-size)] tracking-[var(--text-sm-font-normal-letter-spacing)] leading-[var(--text-sm-font-normal-line-height)] whitespace-nowrap [font-style:var(--text-sm-font-normal-font-style)]"
-          placeholder="Phone number"
+className="w-[566px] px-4 py-3.5 relative bg-[#ffffff] text-gray-500 border-none outline-none"
+
           type="tel"
         />
 
         <input
-          className="px-4 py-[13px] self-stretch w-full grow relative bg-white border-[none] mt-[-1.00px] font-text-sm-font-normal font-[number:var(--text-sm-font-normal-font-weight)] text-dark-grey text-[length:var(--text-sm-font-normal-font-size)] tracking-[var(--text-sm-font-normal-letter-spacing)] leading-[var(--text-sm-font-normal-line-height)] whitespace-nowrap [font-style:var(--text-sm-font-normal-font-style)]"
+className="w-[566px] px-4 py-3.5 relative bg-[#ffffff] text-gray-500 border-none outline-none"
+
           placeholder="Your message"
           type="number"
         />
       </div>
 
       <button className="all-[unset] box-border inline-flex px-14 py-3 flex-[0_0_auto] bg-[#1f1f1f] items-center justify-center gap-2.5 relative">
-        <div className="relative w-fit mt-[-1.00px] font-text-base-font-bold font-[number:var(--text-base-font-bold-font-weight)] text-white text-[length:var(--text-base-font-bold-font-size)] tracking-[var(--text-base-font-bold-letter-spacing)] leading-[var(--text-base-font-bold-line-height)] whitespace-nowrap [font-style:var(--text-base-font-bold-font-style)]">
+        <span className="text-white cursor-pointer">
           Send Message
-        </div>
+        </span>
       </button>
     </div>
 
