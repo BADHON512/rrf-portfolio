@@ -4,10 +4,10 @@ type Props = {}
 
 const Contact = (props: Props) => {
   return (
-    <div className="w-[1440px] mx-auto bg-[#ffd3d0] gap-[60px] p-[124px] flex-[0_0_auto] bg-pink overflow-hidden flex items-start relative">
+    <div className="w-[1440px] mx-auto bg-[#ffd3d0] gap-[60px] p-[124px]  bg-pink overflow-hidden flex items-start relative">
     <div className="flex-col justify-between flex-1 self-stretch grow flex items-start relative">
-      <div className="flex flex-col items-start gap-16 relative self-stretch w-full flex-[0_0_auto]">
-        <div className="items-start gap-4 self-stretch w-full flex-[0_0_auto] flex flex-col relative">
+      <div className="flex flex-col items-start gap-16 relative self-stretch w-full ">
+        <div className="items-start gap-4 self-stretch w-full  flex flex-col relative">
           <h1 className="font-bold text-4xl leading-[150%] tracking-[0%]">
             Get in Touch
           </h1>
@@ -18,8 +18,8 @@ const Contact = (props: Props) => {
           </p>
         </div>
 
-        <div className="flex flex-col items-start gap-8 relative self-stretch w-full flex-[0_0_auto]">
-          <div className="inline-flex items-start gap-4 relative flex-[0_0_auto]">
+        <div className="flex flex-col items-start gap-8 relative self-stretch w-full ">
+          <div className="inline-flex items-start gap-4 relative ">
             <img
               className="relative w-6 h-6"
               alt="Bxs phone call"
@@ -31,7 +31,7 @@ const Contact = (props: Props) => {
             </p>
           </div>
 
-          <div className="inline-flex items-start gap-4 relative flex-[0_0_auto]">
+          <div className="inline-flex items-start gap-4 relative ">
             <img
               className="relative w-6 h-6"
               alt="Ic sharp email"
@@ -46,7 +46,7 @@ const Contact = (props: Props) => {
             </p>
           </div>
 
-          <div className="flex items-start gap-4 relative self-stretch w-full flex-[0_0_auto]">
+          <div className="flex items-start gap-4 relative self-stretch w-full ">
             <img
               className="relative w-6 h-6"
               alt="Carbon location"
@@ -60,7 +60,7 @@ const Contact = (props: Props) => {
         </div>
       </div>
 
-      <div className="inline-flex items-center justify-center gap-6 relative mt-20 flex-[0_0_auto]">
+      <div className="inline-flex items-center justify-center gap-6 relative mt-20 ">
         <div className="relative w-[30px] h-[30px] bg-white rounded-[15px]">
           <img
             className="absolute w-[15px] h-3 top-[9px] left-2 cursor-pointer"
@@ -92,7 +92,7 @@ const Contact = (props: Props) => {
     </div>
 
     <div className="flex flex-col items-start justify-center gap-8 relative flex-1 grow">
-      <div className="flex flex-col items-start gap-6 relative self-stretch w-full flex-[0_0_auto]">
+      <div className="flex flex-col items-start gap-6 relative self-stretch w-full ">
         <input
       className="w-[566px] px-4 py-3.5 relative bg-[#ffffff] text-gray-500 border-none outline-none"
 
@@ -109,7 +109,7 @@ const Contact = (props: Props) => {
 
         <input
 className="w-[566px] px-4 py-3.5 relative bg-[#ffffff] text-gray-500 border-none outline-none"
-
+  placeholder="Phone number"
           type="tel"
         />
 
@@ -121,7 +121,7 @@ className="w-[566px] px-4 py-3.5 relative bg-[#ffffff] text-gray-500 border-none
         />
       </div>
 
-      <button className="all-[unset] box-border inline-flex px-14 py-3 flex-[0_0_auto] bg-[#1f1f1f] items-center justify-center gap-2.5 relative">
+      <button className="all-[unset] box-border inline-flex px-14 py-3  bg-[#1f1f1f] items-center justify-center gap-2.5 relative">
         <span className="text-white cursor-pointer">
           Send Message
         </span>
