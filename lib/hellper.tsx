@@ -9,7 +9,7 @@ interface Props {
   export const VuesaxLinearArrowRight1 = ({ className }: Props): JSX.Element => {
     return (
       <svg
-        className={`${className}`}
+        className={`${className} cursor-pointer`}
         fill="none"
         height="16"
         viewBox="0 0 16 16"
@@ -37,7 +37,7 @@ interface Props {
   export const VuesaxLinearArrowRight2 = ({ className }: Props): JSX.Element => {
     return (
       <svg
-        className={`${className}`}
+        className={`${className} cursor-pointer`}
         fill="none"
         height="40"
         viewBox="0 0 40 40"
@@ -66,7 +66,7 @@ interface Props {
   export const VuesaxLinearArrowRight = ({ className }: Props): JSX.Element => {
     return (
       <svg
-        className={`${className}`}
+        className={`${className} cursor-pointer`}
         fill="none"
         height="40"
         viewBox="0 0 40 40"
@@ -100,7 +100,7 @@ interface Props {
 export const VuesaxLinearTask = ({ className }: Props): JSX.Element => {
   return (
     <svg
-      className={`${className}`}
+      className={`${className} cursor-pointer`}
       fill="none"
       height="48"
       viewBox="0 0 49 48"
@@ -167,7 +167,7 @@ interface Props {
   export const VuesaxLinearSend5 = ({ className }: Props): JSX.Element => {
     return (
       <svg
-        className={`${className}`}
+        className={`${className} cursor-pointer`}
         fill="none"
         height="38"
         viewBox="0 0 38 38"

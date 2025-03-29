@@ -121,7 +121,7 @@ const Contact = (props: Props) => {
           />
         </div>
 
-        <button className="all-[unset] box-border inline-flex px-14 py-3  bg-[#1f1f1f] items-center justify-center gap-2.5 relative">
+        <button className="all-[unset] cursor-pointer box-border inline-flex px-14 py-3  bg-[#1f1f1f] items-center justify-center gap-2.5 relative">
           <span className="text-white cursor-pointer">
             Send Message
           </span>

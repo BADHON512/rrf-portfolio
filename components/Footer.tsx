@@ -8,16 +8,16 @@ const Footer = (props: Props) => {
       <div className="inline-flex flex-col items-center gap-16 relative ">
         <div className="inline-flex items-center gap-[120px] relative ">
           <div className="inline-flex items-end gap-8 relative ">
-            <h1 className="font-bold text-xl leading-[150%] text-[#FFFFFF] tracking-[0%]">
+            <p className="font-bold cursor-pointer text-xl leading-[150%] text-[#FFFFFF] tracking-[0%]">
               About
-            </h1>
+            </p>
 
-            <div className="font-bold text-xl leading-[150%] text-[#FFFFFF] tracking-[0%]">
+            <p className="font-bold cursor-pointer text-xl leading-[150%] text-[#FFFFFF] tracking-[0%]">
               Services
-            </div>
+            </p>
           </div>
 
-          <div className="inline-flex items-start gap-1 relative ">
+          <div className="cursor-pointer inline-flex items-start gap-1 relative ">
             <p className="relative w-fit mt-[-1.00px]  font-normal text-transparent text-4xl tracking-[-7.92px] leading-[54px] whitespace-nowrap">
               <span className="font-semibold text-[#ffffff] tracking-[-2.85px]">
                 RR
@@ -34,13 +34,13 @@ const Footer = (props: Props) => {
           </div>
 
           <div className="flex w-[177px] items-end gap-8 relative">
-            <div className="font-bold text-xl leading-[150%] text-[#FFFFFF] tracking-[0%]">
+            <p className="font-bold text-xl leading-[150%] text-[#FFFFFF] tracking-[0%] cursor-pointer">
               Portfolio
-            </div>
+            </p>
 
-            <div className="font-bold text-xl leading-[150%] text-[#FFFFFF] tracking-[0%]">
+            <p className="font-bold text-xl leading-[150%] text-[#FFFFFF] tracking-[0%] cursor-pointer">
               Blog
-            </div>
+            </p>
           </div>
         </div>
 

@@ -5,7 +5,7 @@ type Props = {}
 
 const Services = (props: Props) => {
   return (
-    <div className="flex w-[1440px] mx-auto items-center justify-center gap-2.5 px-[124px] py-16 relative  bg-[#ffffff]">
+    <div id='Services' className="flex w-[1440px] mx-auto items-center justify-center gap-2.5 px-[124px] py-16 relative  bg-[#ffffff]">
       <div className="flex flex-col items-center justify-center gap-8 relative flex-1 grow">
         <div className="flex flex-col w-[810px] items-center gap-6 relative ">
           <div className=" font-bold text-[36px] leading-[150%] ] montserrat text-[#1f1f1f]">

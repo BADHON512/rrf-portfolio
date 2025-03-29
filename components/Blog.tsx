@@ -5,7 +5,7 @@ type Props = {}
 
 const Blog = (props: Props) => {
   return (
-    <div className="flex flex-col w-[1440px] mx-auto items-center gap-12 px-[124px] py-[90px] bg-gray-100">
+    <div id='Blog' className="flex flex-col w-[1440px] mx-auto items-center gap-12 px-[124px] py-[90px] bg-gray-100">
       <div className="w-[799px] flex flex-col items-center gap-4 text-center">
         <h1 className="text-4xl font-bold text-gray-900">Design Insights and Inspiration</h1>
         <p className="text-base text-gray-700">
@@ -28,9 +28,9 @@ const Blog = (props: Props) => {
             </p>
             <div className="inline-flex items-center gap-2 relative  mt-4">
               <div className="inline-flex items-center gap-8 relative ">
-                <div className="font-bold text-[12px] leading-[150%]">
+                <button className=" cursor-pointer font-bold text-[12px] leading-[150%]">
                   Read More
-                </div>
+                </button>
               </div>
 
               <VuesaxLinearArrowRight1 className="!relative !w-4 !h-4" />
@@ -49,9 +49,9 @@ const Blog = (props: Props) => {
             </p>
             <div className="inline-flex items-center gap-2 relative  mt-7">
               <div className="inline-flex items-center gap-8 relative  ">
-                <p className=" font-bold text-[12px] leading-[150%]">
+                <button className="cursor-pointer font-bold text-[12px] leading-[150%]">
                   Read More
-                </p>
+                </button>
               </div>
 
               <VuesaxLinearArrowRight1 className="!relative !w-4 !h-4" />
@@ -70,9 +70,9 @@ const Blog = (props: Props) => {
             </p>
             <div className="inline-flex items-center gap-2 relative  mt-7">
               <div className="inline-flex items-center gap-8 relative ">
-                <div className="font-bold text-[12px] leading-[150%]">
+                <button className="cursor-pointer font-bold text-[12px] leading-[150%]">
                   Read More
-                </div>
+                </button>
               </div>
 
               <VuesaxLinearArrowRight1 className="!relative !w-4 !h-4" />
